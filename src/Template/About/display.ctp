@@ -51,7 +51,8 @@ html {
 }
 
 .main {
-  margin: 10px 100px 0px 100px;
+  padding-right: 5%;
+  padding-left: 5%;
   }
   h4 {
   margin: 20px 0px 20px 0px;
