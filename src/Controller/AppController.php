@@ -37,6 +37,8 @@ class AppController extends Controller
      *
      * @return void
      */
+    #public $components = array('DebugKit.Toolbar');
+
     public function initialize()
     {
         parent::initialize();

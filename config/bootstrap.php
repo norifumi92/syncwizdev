@@ -201,3 +201,9 @@ Type::build('timestamp')
 //Inflector::rules('irregular', ['red' => 'redlings']);
 //Inflector::rules('uninflected', ['dontinflectme']);
 //Inflector::rules('transliteration', ['/å/' => 'aa']);
+
+#Application::addPlugin('DebugKit', ['bootstrap' => true, 'routes' => true]);
+
+#
+#    Plugin::load('DebugKit', ['bootstrap' => true, 'routes' => true]);
+#}
