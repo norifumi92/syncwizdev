@@ -85,7 +85,6 @@ html {
 }
 
 .row {
-  height: 600px;
   padding-right: 5%;
   padding-left: 5%;
   }
