@@ -30,6 +30,7 @@
 	<link href='http://fonts.googleapis.com/css?family=Open+Sans:800' rel='stylesheet' type='text/css'>
 	<link href="https://fonts.googleapis.com/css?family=Kaushan+Script|Wendy+One|ZCOOL+KuaiLe" rel="stylesheet">
 	<?= $this->Html->css('style.css') ?>
+	<?= $this->Html->css('animate.css') ?>
 </head>
 <body>
 
