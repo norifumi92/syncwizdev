@@ -31,6 +31,7 @@ $(function(){
         var service1 = $('#service1').offset().top;
         var service2 = $('#service2').offset().top;
         var service3 = $('#service3').offset().top;
+        var service4 = $('#service4').offset().top;
  
         //スクロールが要素に達したらアニメーションのクラスを追加
         if(scroll>service1*0.9){
@@ -44,6 +45,10 @@ $(function(){
         if(scroll>service3*0.9){
             $('#service3').addClass('animated fadeIn')
             $('#service3').css('color','black')
+        }
+        if(scroll>service4*0.9){
+            $('#service4').addClass('animated fadeIn')
+            $('#service4').css('color','black')
         }
     });
 });
@@ -70,13 +75,14 @@ html {
 }
 
 #service3 {
-  height: 700px;
+  height: 600px;
   color: white;
   background-color: white;
 }
 
 #service4 {
   height: 600px;
+  color: white;
   background-color: white;
 }
 
@@ -208,7 +214,16 @@ html {
       <p style="font-size: 15px;"><?= $service1 ?></p>
       <small>当社では国内外の一線で活躍するプロのダンサー、ITコンサル、Webエンジニア、戦略コンサルのメンバーが直接お客様の
       現状を踏まえ、顧客集客を高めるサービスやWebシステムを提案・相談します。契約を受けた際には、LineやWhatsappを用いて24時間相談を受けます。
-      契約のない方でも、簡単な内容であれば以下のLine/Whatsappアカウントにご気軽にご相談ください。</small>
+      契約のない方でも、簡単な内容であれば以下のLine/Whatsappアカウントにご気軽にご相談ください。</small><br>
+      <hr>
+      <div class="row">
+        <div class="col" style="text-align: center;">
+          <p style="font-size: 15px;">LINE ID:<br>noritinori</p>
+        </div>
+        <div class="col" style="text-align: center;">
+        <p style="font-size: 15px;">WhatsApp:<br>(+60)135335642</p>
+        </div>
+  </div>
   </div>
   <div id="service2" class="animation">
   <p style="font-size: 15px;"><?= $service2 ?></p>
