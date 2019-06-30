@@ -59,6 +59,7 @@ html {
   }
   h6 {
     text-align: center;
+    text-align: center;
   }
   #title4 {
       border-bottom: 5px solid #000;
@@ -86,7 +87,7 @@ html {
 </head>
 <body>
 <div class="main">
-<h4 id="title4">ご利用料金</h4>
+<h4 id="title4">Plans</h4>
   <div class="row">
   <div class="col-md-4 col-sm-6">
     <div class="panel panel-success">
@@ -128,7 +129,7 @@ html {
           <li class="feature"><a href="#service3">スタジオチャットボット予約</a></li>
           <li class="feature"><a href="#service4">SyncWiz Tech Support 24</a></li>
         <hr>
-        <h6>月額料金</h6>
+        <h6>Our Service</h6>
         <button class="price">￥100/部屋数</button><br>
         <p>※1部屋につきかかる料金。</p>
       </div>  
